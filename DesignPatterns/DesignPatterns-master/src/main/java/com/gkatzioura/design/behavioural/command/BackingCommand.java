@@ -6,7 +6,7 @@ public class BackingCommand implements BetCommand {
 
     public BackingCommand(final Bet bet) {
         this.bet = bet;
-    }
+        
 
     @Override
     public void applyTo(BetBook betBook) {
